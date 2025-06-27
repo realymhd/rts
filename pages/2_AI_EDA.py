@@ -15,7 +15,7 @@ from src.db import get_db_engine
 from src.utils import get_ai_response, load_prompt
 
 st.set_page_config(layout="wide", page_title="AI EDA")
-st.title("💡 AI DB 애널리스트 (AI EDA)")
+st.title("💡 AI DB EDA")
 
 HISTORY_CACHE_FILE = ".history_cache.json"
 

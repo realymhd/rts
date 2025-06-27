@@ -25,12 +25,12 @@ except ImportError as e:
 def load_retention_data(_engine):
     """
     데이터베이스에서 '가입일 기준' 리텐션 데이터를 로드합니다.
-    'queries/1_retention_analysis.sql' 파일에서 SQL 쿼리를 가져옵니다.
+    'queries/1_student_retention.sql' 파일에서 SQL 쿼리를 가져옵니다.
     """
     if _engine is None:
         return pd.DataFrame()
     
-    query_string = load_query("queries/1_retention_analysis.sql")
+    query_string = load_query("queries/1_student_retention.sql")
     if not query_string:
         st.error("리텐션 분석 쿼리를 불러오는데 실패했습니다.")
         return pd.DataFrame()
