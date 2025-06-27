@@ -6,9 +6,9 @@ requires-python = ">=3.8"
 dependencies = [
     "streamlit",
     "pandas",
-    "SQLAlchemy",
-    "PyMySQL",
+    "sqlalchemy",
+    "pymysql",
     "plotly",
     "openai",
-    "tabulate"
+    "tabulate",
 ] 
