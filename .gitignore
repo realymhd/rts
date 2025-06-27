@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Virtual environment
+.venv
+venv
+ENV
+
+# Streamlit
+.streamlit/secrets.toml
+
+# AI cache
+.ai_cache.json
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# SQL files
+*.sql
+queries/
+prompts/
+.vscode/

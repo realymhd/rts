@@ -1,0 +1,14 @@
+[project]
+name = "retention-dashboard"
+version = "0.1.0"
+description = "A dashboard to analyze user retention."
+requires-python = ">=3.8"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "SQLAlchemy",
+    "PyMySQL",
+    "plotly",
+    "openai",
+    "tabulate"
+] 
